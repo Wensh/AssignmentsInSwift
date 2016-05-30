@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class TweetersTableViewController: UITableViewController
+class TweetersTableViewController: CoreDataTableViewController
 {
     var mention: String? { didSet { updateUI() } }
     var managedObjectContext: NSManagedObjectContext? { didSet { updateUI() } }
