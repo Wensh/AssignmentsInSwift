@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="500" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CalculatorSplash" translatesAutoresizingMaskIntoConstraints="NO" id="3Uo-ul-Rra">
+                    <rect key="frame" x="8" y="8" width="492" height="452"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3Uo-ul-Rra" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="0Y4-Ce-ftz"/>
+                <constraint firstAttribute="bottom" secondItem="3Uo-ul-Rra" secondAttribute="bottom" constant="20" symbolic="YES" id="3jT-kb-HOP"/>
+                <constraint firstItem="3Uo-ul-Rra" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="PEx-xx-m9f"/>
+                <constraint firstAttribute="trailing" secondItem="3Uo-ul-Rra" secondAttribute="trailing" id="WoE-rz-FAU"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="558" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="CalculatorSplash" width="1996" height="2101"/>
+    </resources>
+</document>
